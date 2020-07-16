@@ -51,6 +51,8 @@ hr {
     flex-flow: row wrap;
     background-color: lightgray;
     justify-content: center;
+    align-items: center;
+    
 }
 
 #header-container {
@@ -79,6 +81,7 @@ hr {
     height: 250px;
     margin: 10px;
     text-align: center;
+    
     
 }
 
@@ -124,6 +127,11 @@ hr {
     font-size: 16px;
 }
 
+#main-container img {
+    width: 35vw;
+    object-fit: cover;
+}
+
 .project-card {
     text-align: center;
     border-radius: 10px;
@@ -153,7 +161,7 @@ footer a {
 
 
 
-/* The Modal (background) */
+/* Project 1 modal */
 .modal1 {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -180,7 +188,7 @@ footer a {
   /* The Close Button */
   .close {
     color: #aaaaaa;
-    float: right;
+    float: left;
     font-size: 28px;
     font-weight: bold;
   }
@@ -225,7 +233,509 @@ footer a {
     text-align: center;
 }
 
+/* Project 2 modal */
+.modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal2-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close2 {
+    color: #aaaaaa;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close2:hover,
+  .close2:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
 
+  .modal2-content img {
+      width: 500px;
+      margin: 0 auto;
+  }
+  .modal2-content p {
+      margin: 0 auto;
+      text-align: center;
+      width: 80%;
+  }
+
+  .modal2-content h2 {
+    font-size: 35px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: underline;
+}
+
+  .modal2-content h3 {
+      margin: 0 auto;
+      text-align: center;
+      text-decoration: underline;
+  }
+
+  .modal2-content nav a {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.modal2-content nav {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* project 3 */
+.modal3 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal3-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close3 {
+    color: #aaaaaa;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close3:hover,
+  .close3:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal3-content img {
+      width: 500px;
+      margin: 0 auto;
+  }
+  .modal3-content p {
+      margin: 0 auto;
+      text-align: center;
+      width: 80%;
+  }
+
+  .modal3-content h2 {
+    font-size: 35px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: underline;
+}
+
+  .modal3-content h3 {
+      margin: 0 auto;
+      text-align: center;
+      text-decoration: underline;
+  }
+
+  .modal3-content nav a {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.modal3-content nav {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* project 4 */
+.modal4 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal4-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close4 {
+    color: #aaaaaa;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close4:hover,
+  .close4:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal4-content img {
+      width: 500px;
+      margin: 0 auto;
+  }
+  .modal4-content p {
+      margin: 0 auto;
+      text-align: center;
+      width: 80%;
+  }
+
+  .modal4-content h2 {
+    font-size: 35px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: underline;
+}
+
+  .modal4-content h3 {
+      margin: 0 auto;
+      text-align: center;
+      text-decoration: underline;
+  }
+
+  .modal4-content nav a {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.modal4-content nav {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* project 5 */
+.modal5 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal5-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close5 {
+    color: #aaaaaa;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close5:hover,
+  .close5:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal5-content img {
+      width: 500px;
+      margin: 0 auto;
+  }
+  .modal5-content p {
+      margin: 0 auto;
+      text-align: center;
+      width: 80%;
+  }
+
+  .modal5-content h2 {
+    font-size: 35px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: underline;
+}
+
+  .modal5-content h3 {
+      margin: 0 auto;
+      text-align: center;
+      text-decoration: underline;
+  }
+
+  .modal5-content nav a {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.modal5-content nav {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* project 6 */
+.modal6 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal6-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close6 {
+    color: #aaaaaa;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close6:hover,
+  .close6:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal6-content img {
+      width: 500px;
+      margin: 0 auto;
+  }
+  .modal6-content p {
+      margin: 0 auto;
+      text-align: center;
+      width: 80%;
+  }
+
+  .modal6-content h2 {
+    font-size: 35px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: underline;
+}
+
+  .modal6-content h3 {
+      margin: 0 auto;
+      text-align: center;
+      text-decoration: underline;
+  }
+
+  .modal6-content nav a {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.modal6-content nav {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* project 7 */
+.modal7 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal7-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close7 {
+    color: #aaaaaa;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close7:hover,
+  .close7:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal7-content img {
+      width: 500px;
+      margin: 0 auto;
+  }
+  .modal7-content p {
+      margin: 0 auto;
+      text-align: center;
+      width: 80%;
+  }
+
+  .modal7-content h2 {
+    font-size: 35px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: underline;
+}
+
+  .modal7-content h3 {
+      margin: 0 auto;
+      text-align: center;
+      text-decoration: underline;
+  }
+
+  .modal7-content nav a {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.modal7-content nav {
+    margin: 0 auto;
+    text-align: center;
+}
+/* project 8 */
+.modal8 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal8-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close8 {
+    color: #aaaaaa;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close8:hover,
+  .close8:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modal8-content img {
+      width: 500px;
+      margin: 0 auto;
+  }
+  .modal8-content p {
+      margin: 0 auto;
+      text-align: center;
+      width: 80%;
+  }
+
+  .modal8-content h2 {
+    font-size: 35px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: underline;
+}
+
+  .modal8-content h3 {
+      margin: 0 auto;
+      text-align: center;
+      text-decoration: underline;
+  }
+
+  .modal8-content nav a {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.modal8-content nav {
+    margin: 0 auto;
+    text-align: center;
+}
+/* Resume*/
 .modalR {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -239,20 +749,20 @@ footer a {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   }
-
- /* Modal Content */
- .modalR-content {
-    background-color: #fefefe;
+  
+  /* Modal Content */
+  .modalR-content {
+    background-color: white;
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
   }
   
- /* The Close Button */
- .closeR {
+  /* The Close Button */
+  .closeR {
     color: #aaaaaa;
-    float: right;
+    float: left;
     font-size: 28px;
     font-weight: bold;
   }
@@ -264,4 +774,107 @@ footer a {
     cursor: pointer;
   }
 
+  .modalR-content img {
+      width: 500px;
+      margin: 0 auto;
+  }
+  .modalR-content p {
+      margin: 0 auto;
+      text-align: center;
+      width: 80%;
+  }
+
+  .modalR-content h2 {
+    font-size: 35px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: underline;
+}
+
+  .modalR-content h3 {
+      margin: 0 auto;
+      text-align: center;
+      text-decoration: underline;
+  }
+
+  .modalR-content nav a {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.modalR-content nav {
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Contact modal*/
+.modalC {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
   
+  /* Modal Content */
+  .modalC-content {
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .closeC {
+    color: #aaaaaa;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .closeC:hover,
+  .closeC:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .modalC-content img {
+      width: 500px;
+      margin: 0 auto;
+  }
+  .modalC-content p {
+      margin: 0 auto;
+      text-align: center;
+      width: 80%;
+  }
+
+  .modalC-content h2 {
+    font-size: 35px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: underline;
+}
+
+  .modalC-content h3 {
+      margin: 0 auto;
+      text-align: center;
+      text-decoration: underline;
+  }
+
+  .modalC-content nav a {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.modalC-content nav {
+    margin: 0 auto;
+    text-align: center;
+}
