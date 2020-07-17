@@ -183,6 +183,7 @@ footer a {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+    border-radius: 10px;
   }
   
   /* The Close Button */
@@ -255,6 +256,7 @@ footer a {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+    border-radius: 10px;
   }
   
   /* The Close Button */
@@ -327,6 +329,7 @@ footer a {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+    border-radius: 10px;
   }
   
   /* The Close Button */
@@ -399,6 +402,7 @@ footer a {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+    border-radius: 10px;
   }
   
   /* The Close Button */
@@ -471,6 +475,7 @@ footer a {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+    border-radius: 10px;
   }
   
   /* The Close Button */
@@ -543,6 +548,7 @@ footer a {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+    border-radius: 10px;
   }
   
   /* The Close Button */
@@ -615,6 +621,7 @@ footer a {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+    border-radius: 10px;
   }
   
   /* The Close Button */
@@ -686,6 +693,7 @@ footer a {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+    border-radius: 10px;
   }
   
   /* The Close Button */
@@ -748,6 +756,7 @@ footer a {
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    
   }
   
   /* Modal Content */
@@ -757,6 +766,7 @@ footer a {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+    border-radius: 10px;
   }
   
   /* The Close Button */
@@ -807,6 +817,11 @@ footer a {
     text-align: center;
 }
 
+.modalR-content embed {
+    min-height: 70vh;
+    border-radius: 10px;
+}
+
 /* Contact modal*/
 .modalC {
     display: none; /* Hidden by default */
@@ -829,6 +844,7 @@ footer a {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+    border-radius: 10px;
   }
   
   /* The Close Button */
