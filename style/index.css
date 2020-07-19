@@ -276,3 +276,23 @@ footer a {
     border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
+
+/* Contact form */
+.contact-form-firebase {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: rgba(63, 60, 60, 0.226);
+  width: 50%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  border-radius: 10px;
+}
+.contact-form-firebase h4 {
+  font-size: 24px;;
+}
+
+.contact-form-firebase > div {
+  text-align: center;
+}
