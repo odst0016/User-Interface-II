@@ -3,7 +3,7 @@
 var today = new Date();
 let time = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate()+' Time: '+today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
 
-// Your web app's Firebase configuration
+// Firebase configuration
 var firebaseConfig = {
     apiKey: "AIzaSyDiB47WFdx4Y9EE9r2yl68kyi3q9bFzvkA",
     authDomain: "contactform-portfoliosite.firebaseapp.com",
