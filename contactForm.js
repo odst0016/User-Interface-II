@@ -43,6 +43,9 @@ var firebaseConfig = {
     })
     .then(function(){
       console.log("Data Saved");
+      document.getElementById('contactForm11').reset();
+      document.getElementById('contactForm11').style.display = 'none';
+      document.getElementById('contactSubmission').style.display = 'block';
     }).
     catch(function(error){
       console.log(error);
