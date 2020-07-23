@@ -1,79 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="./style/index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="index.js"></script>
     <title>Nathaniel Patterson</title>
-    <link href="https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap" rel="stylesheet"> 
-    
-    <script defer src="index.js"></script> 
 </head>
 <body>
-    <header id="header-container">
-        <div id="header-div">
-        <h1>Nathaniel Patterson</h1>
-        <hr id="header-hr">
-    </div>
-    </header>
-    <section id="main-container">
-        <img src="https://i.picsum.photos/id/0/5616/3744.jpg?hmac=3GAAioiQziMGEtLbfrdbcoenXoWAW-zlyEAMkfEdBzQ" alt="">
-            <div id="about-me-container">
-                <h2>A Bit About Me</h2>
-                <button onclick="window.location.href='https://github.com/odst0016'">My Github</button>
-                <button data-modal-target="#modalR">My Resume</button>
-                <button data-modal-target="#modalC">Contact Me</button>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-            </div>
-    </section>
-    <section id="projects-container">
+    <header>
+        <h1 class="my-Name">Nathaniel Patterson</h1>
         <hr>
+    </header>
+    <section id="main-section">
+        <img src="./Assets/about-IMG.jpg" alt="">
+        <div>
+            <h2 id="about-Head">A Bit About Me</h2>
+            
+                <div id="about-buttons">
+                    <nav id="about-nav">
+                        <button onclick=" window.open('https://github.com/odst0016','_blank')">Github</button>
+                        <button data-modal-target="#modalR">Resume</button>
+                        <button data-modal-target="#modalC">Contact</button>
+                    </nav> 
+                </div>
+            <p id="about-P">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid, nesciunt est, accusantium provident ipsum minima nobis dolorem quae consequuntur consectetur veniam sed laudantium impedit laboriosam labore dolor ratione rem amet quibusdam? Asperiores, dicta commodi! Voluptate dolores quidem deleniti obcaecati alias necessitatibus velit quas minima! Natus aut sequi in iusto, labore mollitia placeat veritatis facilis tempora nam alias quasi rerum accusamus dolores, quis minus explicabo cupiditate voluptate adipisci, eveniet quae qui. Animi impedit perferendis accusantium dolor veniam veritatis suscipit consequatur? Architecto.</p>
+        </div>
+    </section>
+    <hr>
+    <section id="projects-section">
         <div class="project-card" data-modal-target="#modal">
-            <img src="./Assets/PortfolioSite.png" alt="">
+            <h4 class="project-Name">Project Name</h4>
             <hr>
-            <h4>Portfolio Site<br>Click For More Info</h4>
+            <img class="project-card-img" src="https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I" alt="Image of project">
+            <hr>
+            <h4 class="project-Click-For-More">Click For More Info</h4>
         </div>
         <div class="project-card" data-modal-target="#modal2">
-            <img src="https://i.picsum.photos/id/1002/4312/2868.jpg?hmac=5LlLE-NY9oMnmIQp7ms6IfdvSUQOzP_O3DPMWmyNxwo" alt="">
+            <h4 class="project-Name">Project Name</h4>
             <hr>
-            <h4>Project 2 <br>Click For More Info</h4>
+            <img class="project-card-img" src="https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I" alt="Image of project">
+            <hr>
+            <h4 class="project-Click-For-More">Click For More Info</h4>
         </div>
         <div class="project-card" data-modal-target="#modal3">
-            <img src="https://i.picsum.photos/id/1002/4312/2868.jpg?hmac=5LlLE-NY9oMnmIQp7ms6IfdvSUQOzP_O3DPMWmyNxwo" alt="">
+            <h4 class="project-Name">Project Name</h4>
             <hr>
-            <h4>Project 3 <br>Click For More Info</h4>
+            <img class="project-card-img" src="https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I" alt="Image of project">
+            <hr>
+            <h4 class="project-Click-For-More">Click For More Info</h4>
         </div>
         <div class="project-card" data-modal-target="#modal4">
-            <img src="https://i.picsum.photos/id/1002/4312/2868.jpg?hmac=5LlLE-NY9oMnmIQp7ms6IfdvSUQOzP_O3DPMWmyNxwo" alt="">
+            <h4 class="project-Name">Project Name</h4>
             <hr>
-            <h4>Project 4 <br>Click For More Info</h4>
+            <img class="project-card-img" src="https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I" alt="Image of project">
+            <hr>
+            <h4 class="project-Click-For-More">Click For More Info</h4>
         </div>
         <div class="project-card" data-modal-target="#modal5">
-            <img src="https://i.picsum.photos/id/1002/4312/2868.jpg?hmac=5LlLE-NY9oMnmIQp7ms6IfdvSUQOzP_O3DPMWmyNxwo" alt="">
+            <h4 class="project-Name">Project Name</h4>
             <hr>
-            <h4>Project 5 <br>Click For More Info</h4>
+            <img class="project-card-img" src="https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I" alt="Image of project">
+            <hr>
+            <h4 class="project-Click-For-More">Click For More Info</h4>
         </div>
         <div class="project-card" data-modal-target="#modal6">
-            <img src="https://i.picsum.photos/id/1002/4312/2868.jpg?hmac=5LlLE-NY9oMnmIQp7ms6IfdvSUQOzP_O3DPMWmyNxwo" alt="">
+            <h4 class="project-Name">Project Name</h4>
             <hr>
-            <h4>Project 6 <br>Click For More Info</h4>
+            <img class="project-card-img" src="https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I" alt="Image of project">
+            <hr>
+            <h4 class="project-Click-For-More">Click For More Info</h4>
         </div>
         <div class="project-card" data-modal-target="#modal7">
-            <img src="https://i.picsum.photos/id/1002/4312/2868.jpg?hmac=5LlLE-NY9oMnmIQp7ms6IfdvSUQOzP_O3DPMWmyNxwo" alt="">
+            <h4 class="project-Name">Project Name</h4>
             <hr>
-            <h4>Project 7 <br>Click For More Info</h4>
+            <img class="project-card-img" src="https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I" alt="Image of project">
+            <hr>
+            <h4 class="project-Click-For-More">Click For More Info</h4>
         </div>
         <div class="project-card" data-modal-target="#modal8">
-            <img src="https://i.picsum.photos/id/1002/4312/2868.jpg?hmac=5LlLE-NY9oMnmIQp7ms6IfdvSUQOzP_O3DPMWmyNxwo" alt="">
+            <h4 class="project-Name">Project Name</h4>
             <hr>
-            <h4>Project 8 <br>Click For More Info</h4>
+            <img class="project-card-img" src="https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I" alt="Image of project">
+            <hr>
+            <h4 class="project-Click-For-More">Click For More Info</h4>
         </div>
-        <hr>
     </section>
-    <footer>
-        
-    </footer> 
-    
+    <hr>
+
     <div class="modal" id="modal">
         <div class="modal-header">
             <div class="title">
@@ -91,7 +105,11 @@
         </div>
         <hr>
         <div class="project-card-footer">
-        <a href="https://github.com/odst0016/User-Interface-II/tree/nathaniel-patterson" target="_blank">Github</a>
+        <div id="about-buttons">
+            <nav id="about-nav">
+                <button onclick=" window.open('https://github.com/odst0016/User-Interface-II/tree/nathaniel-patterson','_blank')">Github</button>
+            </nav> 
+        </div>
     </div>
     </div>
     </div>
@@ -99,7 +117,7 @@
     <div class="modal" id="modal2">
         <div class="modal-header">
             <div class="title">
-               <h1>Portfolio Site</h1> 
+               <h1>Project 2</h1> 
             </div>
             <button data-close-button class="close-button">&times;</button>
             
@@ -113,8 +131,12 @@
         </div>
         <hr>
         <div class="project-card-footer">
-        <a href="">Github</a>
-        <a href="">Netflify</a>
+            <div id="about-buttons">
+                <nav id="about-nav">
+                    <button onclick=" window.open('https://github.com/odst0016','_blank')">Github</button>
+                    <button >Netlify</button>
+                </nav> 
+            </div>
     </div>
     </div>
     </div>
@@ -122,7 +144,7 @@
     <div class="modal" id="modal3">
         <div class="modal-header">
             <div class="title">
-               <h1>Portfolio Site</h1> 
+               <h1>Project 3</h1> 
             </div>
             <button data-close-button class="close-button">&times;</button>
             
@@ -136,8 +158,12 @@
         </div>
         <hr>
         <div class="project-card-footer">
-        <a href="">Github</a>
-        <a href="">Netflify</a>
+            <div id="about-buttons">
+                <nav id="about-nav">
+                    <button onclick=" window.open('https://github.com/odst0016','_blank')">Github</button>
+                    <button >Netlify</button>
+                </nav> 
+            </div>
     </div>
     </div>
     </div>
@@ -145,7 +171,7 @@
     <div class="modal" id="modal4">
         <div class="modal-header">
             <div class="title">
-               <h1>Portfolio Site</h1> 
+               <h1>Project 4</h1> 
             </div>
             <button data-close-button class="close-button">&times;</button>
             
@@ -159,8 +185,12 @@
         </div>
         <hr>
         <div class="project-card-footer">
-        <a href="">Github</a>
-        <a href="">Netflify</a>
+            <div id="about-buttons">
+                <nav id="about-nav">
+                    <button onclick=" window.open('https://github.com/odst0016','_blank')">Github</button>
+                    <button >Netlify</button>
+                </nav> 
+            </div>
     </div>
     </div>
     </div>
@@ -168,7 +198,7 @@
     <div class="modal" id="modal5">
         <div class="modal-header">
             <div class="title">
-               <h1>Portfolio Site</h1> 
+               <h1>Project 5</h1> 
             </div>
             <button data-close-button class="close-button">&times;</button>
             
@@ -182,8 +212,12 @@
         </div>
         <hr>
         <div class="project-card-footer">
-        <a href="">Github</a>
-        <a href="">Netflify</a>
+            <div id="about-buttons">
+                <nav id="about-nav">
+                    <button onclick=" window.open('https://github.com/odst0016','_blank')">Github</button>
+                    <button >Netlify</button>
+                </nav> 
+            </div>
     </div>
     </div>
     </div>
@@ -191,7 +225,7 @@
     <div class="modal" id="modal6">
         <div class="modal-header">
             <div class="title">
-               <h1>Portfolio Site</h1> 
+               <h1>Project 6</h1> 
             </div>
             <button data-close-button class="close-button">&times;</button>
             
@@ -205,8 +239,12 @@
         </div>
         <hr>
         <div class="project-card-footer">
-        <a href="">Github</a>
-        <a href="">Netflify</a>
+            <div id="about-buttons">
+                <nav id="about-nav">
+                    <button onclick=" window.open('https://github.com/odst0016','_blank')">Github</button>
+                    <button >Netlify</button>
+                </nav> 
+            </div>
     </div>
     </div>
     </div>
@@ -214,7 +252,7 @@
     <div class="modal" id="modal7">
         <div class="modal-header">
             <div class="title">
-               <h1>Portfolio Site</h1> 
+               <h1>Project 7</h1> 
             </div>
             <button data-close-button class="close-button">&times;</button>
             
@@ -228,8 +266,12 @@
         </div>
         <hr>
         <div class="project-card-footer">
-        <a href="">Github</a>
-        <a href="">Netflify</a>
+            <div id="about-buttons">
+                <nav id="about-nav">
+                    <button onclick=" window.open('https://github.com/odst0016','_blank')">Github</button>
+                    <button >Netlify</button>
+                </nav> 
+            </div>
     </div>
     </div>
     </div>
@@ -237,7 +279,7 @@
     <div class="modal" id="modal8">
         <div class="modal-header">
             <div class="title">
-               <h1>Portfolio Site</h1> 
+               <h1>Project 8</h1> 
             </div>
             <button data-close-button class="close-button">&times;</button>
             
@@ -251,8 +293,12 @@
         </div>
         <hr>
         <div class="project-card-footer">
-        <a href="">Github</a>
-        <a href="">Netflify</a>
+            <div id="about-buttons">
+                <nav id="about-nav">
+                    <button onclick=" window.open('https://github.com/odst0016','_blank')">Github</button>
+                    <button >Netlify</button>
+                </nav> 
+            </div>
     </div>
     </div>
     </div>
@@ -299,7 +345,19 @@
                 <button id="submit">Submit</button>
             </div>
             <hr>
+            <div id="phone-Number">
+                <a  href="tel:423-358-8090">Phone:(423)358-8090</a>
+            </div>
+            <hr>
+            <div id="contact-buttons">
+                <nav id="contact-nav">
+                    <button onclick=" window.open('https://github.com/odst0016','_blank')">LinkedIn</button>
+                    <button onclick=" window.open('mailto:odst0016@gmail.com','_blank')">Email</button>
+                    <button onclick=" window.open('https://github.com/odst0016','_blank')">Github</button>
+                </nav>
+            </div>
         </div>
+        
     </div>
 
     
@@ -310,4 +368,3 @@
     <script src="./contactForm.js"></script>
 </body>
 </html>
-
