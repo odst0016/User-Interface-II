@@ -405,4 +405,16 @@ header {
         background-color: white;
         margin: 10px;
     }
+    .project-content {
+      display: flex;
+      justify-content: center;
+      flex-flow: column wrap;
+      margin: auto .5rem auto .5rem;
+      
+    }
+    .modal-body p{
+      font-size: 1rem;
+      text-align: center;
+    }
+    
 }
