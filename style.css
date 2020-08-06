@@ -139,6 +139,9 @@ header {
     background-color: white;
     margin: 10px;
 }
+.project-card:hover {
+  background-color: lightblue;
+}
 .project-card-img {
     max-width: 65%;
     max-height: 65%;
@@ -305,9 +308,12 @@ header {
     border-radius: 10px;
   }
   .contact-form-firebase h4 {
-    font-size: 24px;;
+    font-size: 24px;
+    margin: 2% 0%;
   }
-  
+  .contact-form-firebase label{
+    font-size: 16px;
+  }
   .contact-form-firebase > div {
     text-align: center;
   }
